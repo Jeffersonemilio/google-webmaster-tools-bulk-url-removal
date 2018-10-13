@@ -29,6 +29,11 @@
   ],
   "browser_action": {
     "default_popup": "popup.html"
+  },
+  "icons": {
+    "16" : "trash_icon16.png",
+    "32" : "trash_icon32.png",
+    "48" : "trash_icon48.png",
+    "128" : "trash_icon128.png"
   }
-
 }
