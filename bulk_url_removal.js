@@ -26,7 +26,7 @@ $(document).ready(function(){
     $.each(this.files, function(i, f) {
       var reader = new FileReader();
       reader.onload = (function(e) {
-        var rawTxt = e.target.result;
+        var rawTxt = e.target.result.replace(/\r/g, "\n");
         var victimArry = rawTxt.split('\n');
         var removalMethod = $('#removalmethod').val();
         port.postMessage({
