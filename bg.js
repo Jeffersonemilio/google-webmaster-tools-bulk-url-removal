@@ -8,6 +8,7 @@ chrome.runtime.onConnect.addListener(function(port) {
     if (msg.type === 'initVictims') {
       executionInProgress = true;
       victimUrlArray = msg.rawTxt.replace(/^\s+|\s+$/g, '').split('\n');
+      victimUrlArray = victimUrlArray.filter(v => v.length > 0);
       removalMethod = msg.removalMethod;
       initUrl = msg.initUrl;
       console.log ("initUrl: " + initUrl);
