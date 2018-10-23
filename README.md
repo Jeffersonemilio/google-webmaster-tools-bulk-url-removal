@@ -18,3 +18,6 @@ https://chrome.google.com/webstore/detail/webmaster-tools-bulk-url/pmnpibilljafe
 
 ## Bulk URL fetch
 Some folks were asking for bulk fetch as google. Here's the project page: [https://github.com/noitcudni/google-webmaster-tools-bulk-fetch-as-google](https://github.com/noitcudni/google-webmaster-tools-bulk-fetch-as-google)
+
+## Bulk Outdated Content Removal
+For removing outdated content in bulk. Please visit [https://github.com/noitcudni/google-webmaster-tools-bulk-outdated-content-removal](https://github.com/noitcudni/google-webmaster-tools-bulk-outdated-content-removal)
