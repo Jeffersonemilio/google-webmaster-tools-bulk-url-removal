@@ -1,6 +1,6 @@
 {
   "name" : "WebMaster Tools - Bulk URL removal",
-  "version" : "0.4",
+  "version" : "0.5",
   "manifest_version": 2,
   "description": "",
   "content_scripts" : [
@@ -14,7 +14,8 @@
     },
     {
       "matches" : ["http://localhost:8000/test.html",
-                   "https://www.google.com/webmasters/tools/removals-create-ac*"],
+                   "https://www.google.com/webmasters/tools/removals-create-ac*",
+                   "https://www.google.com/webmasters/tools/removals-submit-ac*"],
       "js" : ["jquery-1.7.1.min.js", "exceed_quota.js"]
     }
 
